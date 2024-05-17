@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #0d0026;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 64px;
+    font-family: monospace;
+}
+.imagem-mundo{
+    width: 15%;
+    margin: 20px;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.title{
+    padding: 24px 0;
+    font-size: 32px;
+}
+.list{
+    padding: 8px 12px;
+    display: grid;
+    grid-template-columns: 5% 22% 22% 22% 22% 5%;
+}
+.spotlights{
+    color: white;
+    padding: 24px 24px;
+    font-size: 32px;
+    text-align: center;
+}
+.background1{
+    font-family: sans-serif;
+    background-image: linear-gradient(#0d0026, #371c69);
+}
+.spot-div{
+    text-align: center;
+    padding: 16px 12px;
+}
+.preview{
+    width: 156px;
+    height: 216px;
+}
+
+.animes{
+    background-image: linear-gradient(#371c69, #7e34a3);
+    color: white;
+    font-family: sans-serif;
+}
+.modes{
+    margin: 20px 0px 16px 0px;
+    font-size: 24px;
+}
+.view-more{
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #0d0026;
+    text-align: center;
+}
+.footer-img{
+    height: 65px;
+    padding: 0 0;
+}
